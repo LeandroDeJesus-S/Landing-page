@@ -1,0 +1,7 @@
+services:
+  apache_srv:
+    image: httpd:2.4-alpine
+    ports:
+      - 8080:80
+    volumes:
+      - ./landing_page:/usr/local/apache2/htdocs

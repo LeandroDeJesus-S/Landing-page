@@ -1,0 +1,32 @@
+:root {
+    --oxford-blue: #0A1128;
+    --pen-blue: #001F54;
+    --indigo-dye: #034078;
+    --cerulean: #1282A2;
+    --whitee: #FEFCFB
+}
+
+.bg-dark-blue {
+    background-color: var(--oxford-blue);
+}
+
+.bg-pen-blue {
+    background-color: var(--pen-blue);
+}
+
+.btn:hover{
+    background-color: var(--oxford-blue);
+}
+
+h1 {
+    color: var(--whitee);
+}
+
+.card {
+    height: 100%;
+    background-color: var(--indigo-dye);
+}
+
+body {
+    background-color: var(--pen-blue);
+}
